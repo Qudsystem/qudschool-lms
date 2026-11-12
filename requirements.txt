@@ -1,0 +1,5 @@
+# أدوات التطوير والجودة
+ruff
+bandit
+pytest
+pytest-cov
