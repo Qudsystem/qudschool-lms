@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 68" role="img" aria-label="UCL University College London">
+  <title>UCL University College London</title>
+  <!-- UCL Official Colors: Dark Navy #002147, Gold #A59444 -->
+
+  <!-- Simplified UCL shield/crest -->
+  <g transform="translate(0, 4)">
+    <!-- Shield outline -->
+    <path d="M10 2 L46 2 L46 38 Q46 55 28 62 Q10 55 10 38 Z" fill="#002147"/>
+    <!-- Shield inner gold decoration - stylized cross -->
+    <rect x="22" y="10" width="12" height="4" rx="1" fill="#A59444"/>
+    <rect x="22" y="17" width="12" height="4" rx="1" fill="#A59444"/>
+    <rect x="22" y="24" width="8" height="4"  rx="1" fill="#A59444"/>
+    <!-- Bottom shield gold band -->
+    <path d="M14 42 Q14 50 28 56 Q42 50 42 42 Z" fill="#A59444"/>
+    <path d="M14 42 L42 42 L42 46 Q28 52 14 46 Z" fill="#8B7C38"/>
+  </g>
+
+  <!-- UCL Wordmark -->
+  <text
+    x="58"
+    y="32"
+    font-family="'Arial', 'Helvetica Neue', sans-serif"
+    font-size="26"
+    font-weight="900"
+    letter-spacing="4"
+    fill="#002147"
+  >UCL</text>
+
+  <!-- Subtitle: University College London -->
+  <text
+    x="58"
+    y="50"
+    font-family="'Arial', 'Helvetica Neue', sans-serif"
+    font-size="7.5"
+    font-weight="400"
+    letter-spacing="0.8"
+    fill="#002147"
+  >UNIVERSITY COLLEGE LONDON</text>
+</svg>

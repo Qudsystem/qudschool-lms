@@ -1,0 +1,125 @@
+# QudSchool — Full Content for LLMs
+
+> QudSchool (كود سكول) is an AI-powered educational platform teaching programming, computer science, robotics, game development, and AI fundamentals to children and teenagers. Delivered in Arabic (RTL) and English (LTR).
+
+Canonical URL: https://qudschool.com
+
+---
+
+## Who we are
+
+QudSchool is an educational platform preparing the next generation of technology leaders. Students learn through interactive courses, real hands-on projects, and a modern supportive environment.
+
+- Founder & CEO: Hossam Galal
+- Team: Hassan Orabi (Development Lead), Omar Essam (Tech Lead), Amr Mohamed Galal (Founding Member)
+- Students: 2,000+
+- Founded: 2023
+- Partners: Google, Microsoft, MIT, Stanford, UNICEF
+- Languages: Arabic (default, RTL) and English (LTR)
+
+---
+
+## Programs
+
+- **Primary Stage Programming** — foundations for young learners.
+- **Game Development Program** — from concepts to publishable games.
+- **AI Classroom Program** — hands-on AI literacy.
+- **Robotics & STEM Program** — physical computing and robotics.
+- **Future Programmers Track** — long-form track toward professional skills.
+
+---
+
+## Live Sessions
+
+QudSchool offers live interactive sessions with certified instructors:
+
+- **Group Sessions** — up to 6 students, 60 min, collaborative projects, session recordings, affordable.
+- **One-on-One Sessions** — 45 min, custom learning path, personal follow-up, weekly parent reports.
+- **Family Sessions** — 2-4 participants, 60 min, family discounts, shared learning experience.
+
+Book via https://qudschool.com/contact.
+
+---
+
+## Certifications
+
+- **Certified Completion Certificate** — official certificate with unique verification number issued upon program completion.
+- **Personal Portfolio** — digital portfolio collecting projects and achievements.
+- **Competition & Level Certificates** — for competitions and advanced levels.
+- **Recommendations & Evaluation** — written instructor recommendation.
+
+Learn more: https://qudschool.com/certifications
+
+---
+
+## Team
+
+- **Hossam Galal** — Founder & CEO. Leads strategic vision and educational curricula.
+- **Hassan Orabi** — Development Lead. Expert in web development and interactive curriculum building.
+- **Omar Essam** — Tech Team Lead. Specialist in AI and computer science, leads AI educational content.
+- **Amr Mohamed Galal** — Founding Team Member. Leads game development and creative computing.
+
+Learn more: https://qudschool.com/instructors
+
+---
+
+## Blog
+
+- [Why Should Your Child Learn Programming in 2026?](https://qudschool.com/blog/why-kids-should-learn-programming-2026) — Programming is now a core life skill, not just a career path.
+- [AI for Kids: A Practical Guide to Getting Started](https://qudschool.com/blog/ai-for-kids-guide) — Practical guide to introducing AI concepts to children.
+- [Game Development for Beginners: From Idea to Project](https://qudschool.com/blog/game-development-for-beginners) — Combining programming, design, and creative thinking.
+- [Robotics for Kids: A Bridge Between Code and the Physical World](https://qudschool.com/blog/robotics-stem-kids) — Turning abstract code into tangible results.
+
+---
+
+## FAQ
+
+**What is QudSchool?**
+An AI-powered educational platform teaching programming, computer science, robotics, game development, and AI to children and teens in Arabic and English.
+
+**What ages?**
+Primary-stage children through teenagers, with progressive tracks by age and level.
+
+**What languages?**
+Arabic (default, RTL) and English (LTR).
+
+**What courses?**
+Programming basics, web development, game development, robotics & STEM, AI, computer science, and creative computing.
+
+**What is the duration of each course?**
+Most courses range 8-12 weeks with 1-2 sessions per week.
+
+**Are there prerequisites?**
+No — programs start from zero for absolute beginners.
+
+**Is there a refund policy?**
+Yes — full refund within 7 days if unsatisfied.
+
+**Are certificates provided?**
+Yes — certified completion certificates upon finishing each program.
+
+**Do students build a portfolio?**
+Yes — every student builds a personal portfolio of projects and achievements.
+
+**How do I get support?**
+Via live chat, email, or the support page. Team available 6 days a week.
+
+**Can parents track progress?**
+Yes — a parent dashboard tracks the child's progress and provides reports.
+
+**Who founded QudSchool?**
+Hossam Galal, in 2023, with a team including Hassan Orabi, Omar Essam, and Amr Mohamed Galal.
+
+**Is QudSchool trusted?**
+2,000+ students learn on the platform. Collaborates with Google, Microsoft, MIT, Stanford, and UNICEF.
+
+---
+
+## Contact
+
+- Website: https://qudschool.com
+- Contact: https://qudschool.com/contact
+- Email: hello@qudschool.com
+- LinkedIn: https://www.linkedin.com/company/qudschool
+- GitHub: https://github.com/qudschool
+- Sitemap: https://qudschool.com/sitemap.xml

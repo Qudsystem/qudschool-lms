@@ -1,0 +1,325 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap');
+
+:root {
+  font-family: 'Tajawal', sans-serif;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-gradient {
+  background: linear-gradient(90deg, #0068B3 0%, #00A0E6 100%);
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Force LTR for logo */
+.dir-ltr {
+  direction: ltr !important;
+  display: inline-flex;
+}
+
+/* Animation keyframes */
+@keyframes slideRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
+
+@keyframes glowEffect {
+  0%, 100% { box-shadow: 0 0 5px rgba(0, 128, 255, 0.5); }
+  50% { box-shadow: 0 0 20px rgba(0, 128, 255, 0.8); }
+}
+
+@keyframes scaleUp {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes flip {
+  0% { transform: perspective(400px) rotateY(0); }
+  100% { transform: perspective(400px) rotateY(180deg); }
+}
+
+@keyframes reveal {
+  0% { clip-path: inset(0 100% 0 0); }
+  100% { clip-path: inset(0 0 0 0); }
+}
+
+/* Animation for carousel */
+@keyframes carouselRight {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-20%); }
+}
+
+@keyframes carouselLeft {
+  0% { transform: translateX(-20%); }
+  100% { transform: translateX(0); }
+}
+
+/* Animation classes */
+.animate-slideRight {
+  animation: slideRight 20s linear infinite;
+}
+
+.animate-slideLeft {
+  animation: slideLeft 20s linear infinite;
+}
+
+.animate-carousel-right {
+  animation: carouselRight 20s linear alternate infinite;
+}
+
+.animate-carousel-left {
+  animation: carouselLeft 20s linear alternate infinite;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-bounce {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+.animate-spin {
+  animation: spin 8s linear infinite;
+}
+
+.animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+.animate-glow {
+  animation: glowEffect 2s ease-in-out infinite;
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.6s ease-out forwards;
+}
+
+.animate-reveal {
+  animation: reveal 1s ease-out forwards;
+}
+
+/* For showing elements sequentially */
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-400 {
+  animation-delay: 400ms;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+.delay-700 {
+  animation-delay: 700ms;
+}
+
+.delay-1000 {
+  animation-delay: 1000ms;
+}
+
+/* Interactive effects */
+.hover-lift {
+  transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+.hover-expand {
+  transition: transform 0.3s ease;
+}
+
+.hover-expand:hover {
+  transform: scale(1.05);
+}
+
+.hover-rotate {
+  transition: transform 0.5s ease;
+}
+
+.hover-rotate:hover {
+  transform: rotate(5deg);
+}
+
+.hover-bright {
+  transition: filter 0.3s ease;
+}
+
+.hover-bright:hover {
+  filter: brightness(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Focus states for accessibility */
+a:focus, button:focus, input:focus, textarea:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Image loading */
+img {
+  transition: opacity 0.3s;
+}
+
+img.lazy-load {
+  opacity: 0;
+}
+
+img.lazy-loaded {
+  opacity: 1;
+}
+
+/* Improved card design */
+.card-hover-effect {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Interactive gradient */
+.interactive-gradient {
+  background-size: 200% 200%;
+  background-position: 0% 0%;
+  transition: background-position 0.5s ease;
+}
+
+.interactive-gradient:hover {
+  background-position: 100% 100%;
+}
+
+/* Scroll reveal */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal-on-scroll.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Google Colors */
+.google-blue {
+  color: #4285F4;
+}
+
+.google-red {
+  color: #EA4335;
+}
+
+.google-yellow {
+  color: #FBBC05;
+}
+
+.google-green {
+  color: #34A853;
+}

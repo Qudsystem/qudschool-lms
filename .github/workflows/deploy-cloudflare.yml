@@ -1,0 +1,46 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: cf-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium (for prerender)
+        run: npx playwright install chromium --with-deps
+
+      - name: Build static site (with prerender)
+        run: npm run build:static
+        env:
+          VITE_SITE_URL: ${{ vars.VITE_SITE_URL || 'https://qudschool.com' }}
+          VITE_GA4_ID: ${{ vars.VITE_GA4_ID }}
+          VITE_GSC_VERIFICATION: ${{ vars.VITE_GSC_VERIFICATION }}
+          VITE_BING_VERIFICATION: ${{ vars.VITE_BING_VERIFICATION }}
+          VITE_YANDEX_VERIFICATION: ${{ vars.VITE_YANDEX_VERIFICATION }}
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=qudschool

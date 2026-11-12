@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 56" role="img" aria-label="TechCrunch">
+  <title>TechCrunch</title>
+  <!-- Signature green accent left bar -->
+  <rect x="0" y="4" width="5" height="48" rx="2" fill="#0EAD00"/>
+  <!-- Bold Black wordmark - TechCrunch uses very bold condensed font -->
+  <g font-family="'Arial Black', 'Impact', 'Helvetica Neue', Arial, sans-serif" font-weight="900">
+    <!-- "Tech" in dark -->
+    <text x="14" y="41" font-size="30" letter-spacing="-1" fill="#111111">Tech</text>
+    <!-- "Crunch" also dark but slightly different weight feel -->
+    <text x="88" y="41" font-size="30" letter-spacing="-1" fill="#111111">Crunch</text>
+  </g>
+  <!-- Small green dot separator -->
+  <circle cx="84" cy="28" r="3" fill="#0EAD00"/>
+</svg>

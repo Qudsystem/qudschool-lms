@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://qudschool.com/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/courses</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/courses" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/courses?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/courses" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/live-sessions</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/live-sessions" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/live-sessions?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/live-sessions" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/competitions</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/competitions" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/competitions?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/competitions" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/pricing</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/pricing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/pricing?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/pricing" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/about</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/about?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/about" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/instructors</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/instructors" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/instructors?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/instructors" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/certifications</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/certifications" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/certifications?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/certifications" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/blog</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/blog?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/blog" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/blog/why-kids-should-learn-programming-2026</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/blog/why-kids-should-learn-programming-2026" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/blog/why-kids-should-learn-programming-2026?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/blog/why-kids-should-learn-programming-2026" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/blog/ai-for-kids-guide</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/blog/ai-for-kids-guide" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/blog/ai-for-kids-guide?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/blog/ai-for-kids-guide" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/blog/game-development-for-beginners</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/blog/game-development-for-beginners" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/blog/game-development-for-beginners?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/blog/game-development-for-beginners" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/blog/robotics-stem-kids</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/blog/robotics-stem-kids" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/blog/robotics-stem-kids?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/blog/robotics-stem-kids" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/success-stories</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/success-stories" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/success-stories?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/success-stories" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/faq</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/faq?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/faq" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/contact</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/contact?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/contact" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/privacy-policy</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/privacy-policy?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/privacy-policy" />
+  </url>
+  <url>
+    <loc>https://qudschool.com/terms-of-service</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://qudschool.com/terms-of-service" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://qudschool.com/terms-of-service?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qudschool.com/terms-of-service" />
+  </url>
+</urlset>

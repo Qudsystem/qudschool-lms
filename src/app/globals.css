@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    --gradient-4: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    --gradient-5: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  }
+
+  body {
+    background: linear-gradient(to bottom right, #faf5ff 0%, #fce7f3 50%, #e0f2fe 100%);
+    min-height: 100vh;
+    font-family: 'Quicksand', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    background: linear-gradient(to right, #ff6b6b 0%, #0ea5e9 50%, #fbbf24 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-gradient {
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
+    backdrop-filter: blur(16px);
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 text-white font-semibold rounded-full shadow-lg transform transition-all duration-200;
+    background: linear-gradient(to right, #ff6b6b, #ed3434);
+  }
+  
+  .btn-primary:hover {
+    @apply shadow-xl scale-105;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 text-white font-semibold rounded-full shadow-lg transform transition-all duration-200;
+    background: linear-gradient(to right, #0ea5e9, #0284c7);
+  }
+  
+  .btn-secondary:hover {
+    @apply shadow-xl scale-105;
+  }
+
+  .floating {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+}

@@ -1,0 +1,102 @@
+# QudSchool - robots.txt
+# Strategy: Allow AI Search & Citation bots (bring visibility), gate training-only crawlers by scope.
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /settings
+Disallow: /notifications
+Disallow: /my-learning
+Disallow: /community
+Disallow: /support
+Disallow: /flashcards
+Disallow: /sniper-arena
+Disallow: /ai-tutor
+Disallow: /search
+
+# === Google Search ===
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# === Google AI (Gemini training + AI Overviews) ===
+User-agent: Google-Extended
+Allow: /
+
+# === OpenAI ===
+# OAI-SearchBot → brings citations in ChatGPT Search
+User-agent: OAI-SearchBot
+Allow: /
+# GPTBot → model training
+User-agent: GPTBot
+Allow: /$
+Allow: /courses
+Allow: /pricing
+Allow: /about
+Allow: /success-stories
+Allow: /blog
+Allow: /live-sessions
+Allow: /certifications
+Allow: /instructors
+Allow: /faq
+Disallow: /admin
+Disallow: /dashboard
+
+# === Anthropic ===
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+
+# === Perplexity ===
+User-agent: PerplexityBot
+Allow: /
+
+# === Microsoft / Bing (Copilot) ===
+User-agent: Bingbot
+Allow: /
+User-agent: BingPreview
+Allow: /
+
+# === Apple (Siri / Spotlight) ===
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# === DuckDuckGo ===
+User-agent: DuckDuckBot
+Allow: /
+
+# === Yandex ===
+User-agent: YandexBot
+Allow: /
+
+# === Common social preview crawlers ===
+User-agent: Twitterbot
+Allow: /
+User-agent: facebookexternalhit
+Allow: /
+User-agent: LinkedInBot
+Allow: /
+User-agent: WhatsApp
+Allow: /
+User-agent: TelegramBot
+Allow: /
+
+# === Aggressive / SEO-only scrapers — polite throttle ===
+User-agent: AhrefsBot
+Crawl-delay: 10
+User-agent: SemrushBot
+Crawl-delay: 10
+User-agent: MJ12bot
+Crawl-delay: 10
+
+# === Sitemaps ===
+Sitemap: https://qudschool.com/sitemap.xml

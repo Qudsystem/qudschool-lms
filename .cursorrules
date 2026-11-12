@@ -1,0 +1,542 @@
+# Cursor AI Rules - قواعد الذكاء الاصطناعي للمؤشر
+# Based on Arabic development guidelines and best practices
+
+## General Development Principles
+# مبادئ التطوير العامة
+
+- Always prioritize code quality, readability, and maintainability
+- Follow consistent naming conventions throughout the project
+- Write self-documenting code with clear variable and function names
+- Implement proper error handling and validation
+- Use TypeScript for type safety when possible
+- Follow modern JavaScript/TypeScript best practices
+
+## Code Organization & Structure
+# تنظيم الكود والهيكل
+
+- Use PascalCase for React components (e.g., UserProfile, DataTable)
+- Use camelCase for variables, functions, and methods
+- Use UPPER_SNAKE_CASE for constants
+- Organize files in logical folder structures
+- Separate concerns: components, services, utilities, types
+- Create reusable components and utilities
+- Use barrel exports (index.ts files) for clean imports
+
+## React Development Guidelines
+# إرشادات تطوير React
+
+- Use functional components with hooks
+- Implement proper prop types or TypeScript interfaces
+- Use meaningful component names that describe their purpose
+- Extract complex logic into custom hooks
+- Implement proper state management (useState, useReducer, or external state)
+- Use React.memo() for performance optimization when needed
+- Follow the single responsibility principle for components
+
+## Database & API Guidelines
+# إرشادات قاعدة البيانات والـ API
+
+- Always use prepared statements or parameterized queries to prevent SQL injection
+- Implement proper error handling for database operations
+- Use environment variables for database connections and API keys
+- Implement proper validation for all API inputs
+- Use consistent API response formats
+- Implement proper authentication and authorization
+- Use database helper functions instead of writing queries directly in components
+
+## Security Best Practices
+# أفضل ممارسات الأمان
+
+- Never hardcode sensitive information (API keys, passwords, tokens)
+- Use environment variables for configuration
+- Implement proper input validation and sanitization
+- Use HTTPS for all external communications
+- Implement proper CORS policies
+- Use secure authentication methods
+- Validate all user inputs on both client and server side
+
+## Code Comments & Documentation
+# التعليقات والوثائق
+
+- Add JSDoc comments for all functions and classes
+- Include TODO comments for incomplete implementations
+- Write clear, descriptive comments for complex logic
+- Document API endpoints and their parameters
+- Maintain up-to-date README files
+- Use meaningful commit messages
+
+## State Management
+# إدارة الحالة
+
+- Use Redux Toolkit for complex state management
+- Follow Redux best practices: actions, reducers, selectors
+- Implement proper state normalization
+- Use middleware for side effects (Redux Thunk/Saga)
+- Keep state minimal and derive computed values
+- Use local state for component-specific data
+
+## Testing Guidelines
+# إرشادات الاختبار
+
+- Write unit tests for utility functions
+- Implement integration tests for API endpoints
+- Use React Testing Library for component testing
+- Aim for meaningful test coverage
+- Write tests that verify behavior, not implementation
+- Use descriptive test names
+
+## Performance Optimization
+# تحسين الأداء
+
+- Implement code splitting and lazy loading
+- Optimize images and assets
+- Use proper caching strategies
+- Implement virtual scrolling for large lists
+- Minimize bundle size
+- Use proper dependency management
+
+## Git & Version Control
+# Git وإدارة الإصدارات
+
+- Use meaningful commit messages in English
+- Follow conventional commit format when possible
+- Create feature branches for new development
+- Use pull requests for code review
+- Keep commits atomic and focused
+- Use proper branching strategy
+
+## File Naming Conventions
+# قواعد تسمية الملفات
+
+- Use kebab-case for file and folder names
+- Use descriptive names that indicate purpose
+- Group related files in appropriate folders
+- Use index files for clean imports
+- Follow platform-specific conventions
+
+## Error Handling
+# معالجة الأخطاء
+
+- Implement comprehensive error boundaries in React
+- Use proper try-catch blocks for async operations
+- Log errors appropriately for debugging
+- Provide meaningful error messages to users
+- Implement fallback UI for error states
+- Use proper HTTP status codes
+
+## Accessibility (a11y)
+# إمكانية الوصول
+
+- Use semantic HTML elements
+- Implement proper ARIA attributes
+- Ensure keyboard navigation support
+- Provide alt text for images
+- Use proper color contrast ratios
+- Test with screen readers
+
+## Internationalization (i18n)
+# التدويل
+
+- Use proper i18n libraries (react-i18next, etc.)
+- Extract all user-facing text to translation files
+- Support RTL languages (Arabic, Hebrew)
+- Use proper date and number formatting
+- Implement proper pluralization rules
+
+## Code Quality Tools
+# أدوات جودة الكود
+
+- Use ESLint for code linting
+- Use Prettier for code formatting
+- Use TypeScript for type checking
+- Implement pre-commit hooks
+- Use proper IDE configuration
+- Follow consistent indentation (2 spaces)
+
+## Project-Specific Rules
+# قواعد خاصة بالمشروع
+
+- Always check for existing similar functionality before creating new
+- Follow the established project architecture
+- Use the project's design system and component library
+- Implement proper logging for debugging
+- Use the project's preferred state management solution
+- Follow the project's API conventions
+
+## AI-Assisted Development
+# التطوير المدعوم بالذكاء الاصطناعي
+
+- Use AI suggestions as starting points, always review and refine
+- Ensure AI-generated code follows project standards
+- Validate AI suggestions against security best practices
+- Use AI for boilerplate code generation
+- Leverage AI for code optimization suggestions
+- Always test AI-generated code thoroughly
+
+## Continuous Integration/Deployment
+# التكامل والنشر المستمر
+
+- Ensure all tests pass before merging
+- Use proper CI/CD pipelines
+- Implement proper environment management
+- Use proper deployment strategies
+- Monitor application performance
+- Implement proper rollback procedures
+
+## Code Review Guidelines
+# إرشادات مراجعة الكود
+
+- Review for security vulnerabilities
+- Check for performance implications
+- Ensure proper error handling
+- Verify test coverage
+- Check for code duplication
+- Ensure proper documentation
+
+## Top 20 Essential Cursor AI Rules
+# أفضل 20 قاعدة أساسية لـ Cursor AI
+
+### 1. Language and Communication Rules
+# قواعد اللغة والتواصل
+
+- Always write instructions in English for better AI model understanding
+- Use clear, specific, and detailed instructions for more accurate results
+- Encourage AI to ask clarifying questions when requirements are unclear
+- Provide rich context with screenshots, links, or code snippets when needed
+
+### 2. Project Documentation and Context
+# توثيق المشروع والسياق
+
+- Include essential documentation (PRDs, technical specifications) in your repository
+- Create `.cursor/rules` folder to define project-specific guidelines
+- Enable codebase indexing in settings for complete project understanding
+- Use `@` to reference relevant files, folders, or documentation in conversations
+
+### 3. Code Organization and Planning
+# تنظيم الكود والتخطيط
+
+- Plan features before implementation - ask Cursor to create a plan first
+- Use Composer notes to save reusable code snippets or custom instructions
+- Follow MVP (Minimum Viable Product) approach - focus on core features first
+- Maintain live architectural documentation for consistent development
+
+### 4. AI Model and Performance Optimization
+# تحسين نموذج الذكاء الاصطناعي والأداء
+
+- Switch AI models when suggestions are unsatisfactory for fresh perspectives
+- Choose models based on specific project requirements, not just general performance
+- Understand model settings and costs - choose appropriate configurations
+- Review every AI suggestion for accuracy and appropriateness
+
+### 5. Development Workflow and Quality
+# سير عمل التطوير والجودة
+
+- Make small, frequent Git commits to maintain clear change history
+- Report errors directly with precise details for targeted solutions
+- Enable automatic architectural documentation for team consistency
+- Use only official and secure MCP servers from trusted sources
+
+### 6. Code Review and Validation
+# مراجعة الكود والتحقق
+
+- Always review and validate AI-generated code before implementation
+- Test AI-generated code thoroughly before deployment
+- Ensure AI suggestions follow project standards and security best practices
+- Use AI for boilerplate generation but always customize for your needs
+
+### 7. Context and Reference Management
+# إدارة السياق والمراجع
+
+- Reference existing similar functionality before creating new features
+- Use `@` symbol to include specific files or folders in conversations
+- Provide comprehensive context about project architecture and requirements
+- Maintain up-to-date project documentation for better AI understanding
+
+### 8. Error Handling and Debugging
+# معالجة الأخطاء والتشخيص
+
+- Provide detailed error messages and stack traces when reporting issues
+- Include relevant code snippets and expected vs actual behavior
+- Use proper logging and debugging tools for better error tracking
+- Implement comprehensive error boundaries and fallback mechanisms
+
+### 9. Security and Best Practices
+# الأمان وأفضل الممارسات
+
+- Never hardcode sensitive information (API keys, passwords, tokens)
+- Use environment variables for all configuration
+- Implement proper input validation and sanitization
+- Follow security best practices for authentication and authorization
+
+### 10. Performance and Optimization
+# الأداء والتحسين
+
+- Implement code splitting and lazy loading for better performance
+- Use proper caching strategies and optimize assets
+- Minimize bundle size and implement virtual scrolling for large lists
+- Monitor application performance and implement proper rollback procedures
+
+### 11. Testing and Quality Assurance
+# الاختبار وضمان الجودة
+
+- Write comprehensive tests for all AI-generated code
+- Use proper testing frameworks and tools
+- Implement both unit and integration tests
+- Ensure meaningful test coverage and descriptive test names
+
+### 12. Collaboration and Team Work
+# التعاون والعمل الجماعي
+
+- Use meaningful commit messages and follow conventional commit format
+- Create feature branches for new development
+- Use pull requests for code review and collaboration
+- Maintain consistent coding standards across the team
+
+### 13. Documentation and Maintenance
+# التوثيق والصيانة
+
+- Keep documentation up-to-date with code changes
+- Use JSDoc comments for functions and classes
+- Maintain clear README files and API documentation
+- Document architectural decisions and design patterns
+
+### 14. Accessibility and Internationalization
+# إمكانية الوصول والتدويل
+
+- Implement proper accessibility features (ARIA attributes, keyboard navigation)
+- Support multiple languages and RTL text direction
+- Use semantic HTML elements and proper color contrast
+- Test with screen readers and accessibility tools
+
+### 15. State Management and Data Flow
+# إدارة الحالة وتدفق البيانات
+
+- Use appropriate state management solutions for your project
+- Implement proper data flow and state normalization
+- Keep state minimal and derive computed values
+- Use middleware for side effects and async operations
+
+### 16. API Design and Integration
+# تصميم الـ API والتكامل
+
+- Design consistent and RESTful API endpoints
+- Implement proper error handling and status codes
+- Use proper authentication and authorization mechanisms
+- Document API endpoints and their parameters
+
+### 17. Database and Data Management
+# قاعدة البيانات وإدارة البيانات
+
+- Use prepared statements to prevent SQL injection
+- Implement proper database connection management
+- Use environment variables for database configuration
+- Implement proper data validation and sanitization
+
+### 18. Build and Deployment
+# البناء والنشر
+
+- Use proper CI/CD pipelines for automated testing and deployment
+- Implement proper environment management (dev, staging, production)
+- Use proper deployment strategies and rollback procedures
+- Monitor application performance and errors in production
+
+### 19. Code Quality and Standards
+# جودة الكود والمعايير
+
+- Use ESLint and Prettier for code linting and formatting
+- Follow consistent naming conventions and code organization
+- Implement pre-commit hooks for quality checks
+- Use TypeScript for type safety when possible
+
+### 20. Continuous Learning and Improvement
+# التعلم المستمر والتحسين
+
+- Stay updated with latest development practices and tools
+- Regularly review and update your Cursor AI rules
+- Learn from AI suggestions and improve your coding practices
+- Share knowledge and best practices with your team
+
+## Advanced Cursor AI Rules from Expert Developers
+# قواعد متقدمة لـ Cursor AI من المطورين الخبراء
+
+### 21. Prompt Engineering Excellence
+# التميز في هندسة الأوامر
+
+- Use specific, detailed prompts instead of vague requests
+- Include context about the problem domain and constraints
+- Specify the expected output format and structure
+- Use examples in prompts to guide AI understanding
+- Break complex tasks into smaller, manageable sub-tasks
+
+### 22. Strategic Logging and Debugging
+# التسجيل الاستراتيجي والتشخيص
+
+- Implement strategic console.log statements for debugging
+- Use structured logging with timestamps and context
+- Create debug modes that can be toggled in production
+- Log important state changes and user interactions
+- Use proper log levels (debug, info, warn, error)
+
+### 23. Test-Driven Development (TDD) Integration
+# تكامل التطوير الموجه بالاختبارات
+
+- Always request unit tests before implementing new features
+- Write tests that verify behavior, not implementation details
+- Use descriptive test names that explain the expected behavior
+- Implement both positive and negative test cases
+- Maintain high test coverage for critical business logic
+
+### 24. Performance Monitoring and Optimization
+# مراقبة الأداء والتحسين
+
+- Set clear performance benchmarks and monitoring
+- Implement performance budgets for bundle size and load times
+- Use performance profiling tools to identify bottlenecks
+- Monitor Core Web Vitals and user experience metrics
+- Implement lazy loading and code splitting strategies
+
+### 25. Advanced Git Workflow Integration
+# تكامل متقدم لسير عمل Git
+
+- Use conventional commit messages with scope and type
+- Create feature branches with descriptive names
+- Implement proper branch protection rules
+- Use Git hooks for automated quality checks
+- Maintain clean commit history with proper squashing
+
+### 26. Context-Aware Development
+# التطوير الواعي بالسياق
+
+- Always provide relevant file context using @ symbol
+- Include related documentation and specifications
+- Reference existing similar implementations
+- Provide business context and user stories
+- Include design mockups and wireframes when available
+
+### 27. Error Recovery and Resilience
+# استعادة الأخطاء والمرونة
+
+- Implement comprehensive error boundaries
+- Create fallback UI components for error states
+- Use retry mechanisms for failed API calls
+- Implement graceful degradation for non-critical features
+- Provide meaningful error messages to users
+
+### 28. Code Generation Quality Control
+# مراقبة جودة توليد الكود
+
+- Always review AI-generated code line by line
+- Validate security implications of generated code
+- Check for potential performance issues
+- Ensure code follows project-specific patterns
+- Test all generated code thoroughly before deployment
+
+### 29. Documentation-Driven Development
+# التطوير الموجه بالتوثيق
+
+- Write documentation before implementing features
+- Use JSDoc comments for all public APIs
+- Maintain up-to-date README files
+- Document architectural decisions and trade-offs
+- Create user guides and API documentation
+
+### 30. Multi-Model AI Strategy
+# استراتيجية الذكاء الاصطناعي متعدد النماذج
+
+- Switch between different AI models for different tasks
+- Use specialized models for specific domains (code, documentation, testing)
+- Compare outputs from different models for critical decisions
+- Understand the strengths and limitations of each model
+- Use the most appropriate model for each specific task
+
+### 31. Iterative Development Approach
+# نهج التطوير التكراري
+
+- Start with MVP and iterate based on feedback
+- Use AI to generate multiple solution approaches
+- Implement rapid prototyping with AI assistance
+- Gather user feedback early and often
+- Continuously improve based on real-world usage
+
+### 32. Advanced Security Practices
+# ممارسات أمان متقدمة
+
+- Implement Content Security Policy (CSP) headers
+- Use proper CORS configuration for API endpoints
+- Implement rate limiting and DDoS protection
+- Use secure session management and token handling
+- Regular security audits and vulnerability scanning
+
+### 33. Accessibility-First Development
+# التطوير الموجه بإمكانية الوصول أولاً
+
+- Implement ARIA attributes from the start
+- Test with screen readers and keyboard navigation
+- Ensure proper color contrast ratios
+- Provide alternative text for all images
+- Support multiple input methods (keyboard, mouse, touch)
+
+### 34. Internationalization Best Practices
+# أفضل ممارسات التدويل
+
+- Extract all user-facing strings to translation files
+- Support RTL languages (Arabic, Hebrew) properly
+- Use proper date, time, and number formatting
+- Implement proper pluralization rules
+- Test with different languages and locales
+
+### 35. Advanced State Management Patterns
+# أنماط متقدمة لإدارة الحالة
+
+- Use proper state normalization techniques
+- Implement optimistic updates for better UX
+- Use middleware for complex side effects
+- Implement proper state persistence strategies
+- Use state machines for complex workflows
+
+### 36. API Design Excellence
+# التميز في تصميم الـ API
+
+- Design RESTful APIs with proper HTTP methods
+- Implement proper API versioning strategies
+- Use consistent response formats and error codes
+- Implement proper API documentation with examples
+- Use API testing tools and contract testing
+
+### 37. Database Optimization Strategies
+# استراتيجيات تحسين قاعدة البيانات
+
+- Use proper indexing strategies for query optimization
+- Implement database connection pooling
+- Use prepared statements for all queries
+- Implement proper database migration strategies
+- Monitor and optimize slow queries
+
+### 38. Advanced Testing Strategies
+# استراتيجيات اختبار متقدمة
+
+- Implement integration tests for critical user flows
+- Use end-to-end testing for complete user journeys
+- Implement visual regression testing
+- Use property-based testing for complex algorithms
+- Implement performance testing for critical paths
+
+### 39. Deployment and DevOps Excellence
+# التميز في النشر وعمليات التطوير
+
+- Use proper environment management (dev, staging, prod)
+- Implement blue-green or canary deployments
+- Use proper monitoring and alerting systems
+- Implement proper rollback procedures
+- Use infrastructure as code (IaC) practices
+
+### 40. Continuous Learning and Adaptation
+# التعلم المستمر والتكيف
+
+- Stay updated with latest Cursor AI features and capabilities
+- Regularly review and update your rules based on experience
+- Learn from AI suggestions and improve your prompts
+- Share knowledge and best practices with your team
+- Experiment with new AI tools and techniques
+
+Remember: These rules are guidelines to improve code quality, maintainability, and development efficiency. Always adapt them to your specific project requirements while maintaining consistency and best practices.

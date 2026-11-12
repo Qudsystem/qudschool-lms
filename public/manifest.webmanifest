@@ -1,0 +1,32 @@
+{
+  "name": "QudSchool — AI-Powered Learning Platform",
+  "short_name": "QudSchool",
+  "description": "منصة تعليمية مدعومة بالذكاء الاصطناعي لتعليم الأطفال البرمجة والروبوتات وتطوير الألعاب.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3F4F6",
+  "theme_color": "#2563EB",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": [
+    "education",
+    "kids",
+    "programming"
+  ],
+  "icons": [
+    {
+      "src": "/assets/qudschool-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

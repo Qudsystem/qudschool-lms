@@ -1,0 +1,12 @@
+# Redirect old HashRouter URLs → clean URLs
+/#/courses      /courses      301
+/#/pricing      /pricing      301
+/#/about        /about        301
+/#/blog         /blog         301
+
+# Redirects for common alternate paths
+/success-stories  /success-stories  200
+/blog/posts/:slug /blog/:slug       301
+
+# SPA fallback (must be last) — Cloudflare Pages serves the built 404.html
+/*  /index.html  200

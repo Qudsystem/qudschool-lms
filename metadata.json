@@ -1,0 +1,6 @@
+{
+  "name": "QudSchool - AI-Powered Learning Platform",
+  "description": "QudSchool is a foundational React SPA for a Learning Management System (LMS). This version provides the basic UI structure, navigation, and a demonstration of AI interaction using the Gemini API. Future development would involve integrating Next.js, Supabase for backend and authentication, Stripe for payments, and Vapi for advanced real-time vocal agent capabilities.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

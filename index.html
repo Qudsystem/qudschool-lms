@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- === Primary Meta === -->
+    <title>QudSchool | كود سكول — منصة تعليم البرمجة والذكاء الاصطناعي للأطفال</title>
+    <meta name="description" content="كود سكول (QudSchool) — منصة تعليمية مدعومة بالذكاء الاصطناعي لتعليم الأطفال واليافعين البرمجة والروبوتات وتطوير الألعاب والذكاء الاصطناعي. دورات تفاعلية، مشاريع عملية، وشهادات معتمدة." />
+    <meta name="keywords" content="تعليم البرمجة للأطفال, كود سكول, QudSchool, دورات برمجة, تعلم الذكاء الاصطناعي, تطوير الألعاب, الروبوتات للأطفال, programming for kids, AI for kids, coding courses" />
+    <meta name="author" content="QudSchool" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="language" content="Arabic" />
+    <meta name="theme-color" content="#2563EB" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1F2937" media="(prefers-color-scheme: dark)" />
+
+    <!-- === Canonical & i18n === -->
+    <link rel="canonical" href="https://qudschool.com/" />
+    <link rel="alternate" hreflang="ar" href="https://qudschool.com/" />
+    <link rel="alternate" hreflang="en" href="https://qudschool.com/?lang=en" />
+    <link rel="alternate" hreflang="x-default" href="https://qudschool.com/" />
+
+    <!-- === Open Graph (Facebook, LinkedIn, WhatsApp, Telegram) === -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="QudSchool | كود سكول" />
+    <meta property="og:title" content="QudSchool | كود سكول — منصة تعليم البرمجة والذكاء الاصطناعي للأطفال" />
+    <meta property="og:description" content="منصة تعليمية مدعومة بالذكاء الاصطناعي لتعليم الأطفال البرمجة والروبوتات وتطوير الألعاب. 2,000+ طالب يتعلم معنا." />
+    <meta property="og:url" content="https://qudschool.com/" />
+    <meta property="og:image" content="https://qudschool.com/assets/hero-qudschool-ai.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="QudSchool - AI-Powered Learning Platform" />
+    <meta property="og:locale" content="ar_AR" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- === Twitter / X === -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="QudSchool | كود سكول — تعليم البرمجة والذكاء الاصطناعي للأطفال" />
+    <meta name="twitter:description" content="منصة تعليمية مدعومة بالذكاء الاصطناعي لتعليم الأطفال البرمجة والروبوتات وتطوير الألعاب." />
+    <meta name="twitter:image" content="https://qudschool.com/assets/hero-qudschool-ai.png" />
+    <meta name="twitter:image:alt" content="QudSchool - AI-Powered Learning Platform" />
+
+    <!-- === PWA / mobile === -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="QudSchool" />
+    <meta name="application-name" content="QudSchool" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- === Icons === -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/assets/qudschool-logo.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- === Performance hints === -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+    <!-- LCP image preload (hero visual) -->
+    <link rel="preload" as="image" href="/assets/qudschool-kids-hero.png" fetchpriority="high" />
+
+    <link rel="stylesheet" href="/styles.css">
+
+    <script src="https://cdn.tailwindcss.com?plugins=typography,line-clamp"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class', 
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#2563EB', // Blue-600
+                light: '#60A5FA',   // Blue-400
+                dark: '#1D4ED8'    // Blue-700
+              },
+              secondary: {
+                DEFAULT: '#F97316', // Orange-500
+                light: '#FB923C',   // Orange-400
+                dark: '#EA580C'    // Orange-600
+              },
+              neutral: {
+                light: '#F3F4F6', // Gray-100
+                DEFAULT: '#6B7280', // Gray-500
+                dark: '#1F2937'  // Gray-800
+              }
+            },
+            fontFamily: {
+              sans: ['Tajawal', 'Inter', 'sans-serif'],
+              arabic: ['Tajawal', 'sans-serif'],
+              english: ['Inter', 'sans-serif']
+            },
+            keyframes: {
+              'fade-in-up': {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' }
+              },
+              'fade-in-down': {
+                '0%': { opacity: '0', transform: 'translateY(-10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' }
+              },
+              'fade-in': {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' }
+              },
+              'pulse-slow': {
+                '0%, 100%': { opacity: '1' },
+                '50%': { opacity: '0.7' }
+              },
+              'float': {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-5px)' }
+              },
+              'bounce-slow': {
+                '0%, 100%': {
+                  transform: 'translateY(-5%)',
+                  'animation-timing-function': 'cubic-bezier(0.8, 0, 1, 1)'
+                },
+                '50%': {
+                  transform: 'translateY(0)',
+                  'animation-timing-function': 'cubic-bezier(0, 0, 0.2, 1)'
+                }
+              }
+            },
+            animation: {
+              'fade-in-up': 'fade-in-up 0.5s ease-out',
+              'fade-in-down': 'fade-in-down 0.5s ease-out',
+              'fade-in': 'fade-in 0.5s ease-out',
+              'pulse-slow': 'pulse-slow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'float': 'float 6s ease-in-out infinite',
+              'bounce-slow': 'bounce-slow 3s infinite',
+              'spin-slow': 'spin 20s linear infinite'
+            }
+          }
+        }
+      };
+    </script>
+    <style>
+      /* Animation delay classes */
+      .animation-delay-100 { animation-delay: 100ms; }
+      .animation-delay-200 { animation-delay: 200ms; }
+      .animation-delay-300 { animation-delay: 300ms; }
+      .animation-delay-400 { animation-delay: 400ms; }
+      .animation-delay-500 { animation-delay: 500ms; }
+      .animation-delay-600 { animation-delay: 600ms; }
+      .animation-delay-700 { animation-delay: 700ms; }
+      .animation-delay-800 { animation-delay: 800ms; }
+      .animation-delay-900 { animation-delay: 900ms; }
+      .animation-delay-1000 { animation-delay: 1000ms; }
+      
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@/": "./",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.0.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+
+    <!-- === JSON-LD Structured Data (for Google, AI Overviews, ChatGPT, Perplexity, Claude) === -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "EducationalOrganization",
+          "@id": "https://qudschool.com/#organization",
+          "name": "QudSchool",
+          "alternateName": ["كود سكول", "Qud School"],
+          "url": "https://qudschool.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://qudschool.com/assets/qudschool-logo.svg",
+            "width": 512,
+            "height": 512
+          },
+          "image": "https://qudschool.com/assets/hero-qudschool-ai.png",
+          "description": "منصة تعليمية مدعومة بالذكاء الاصطناعي لتعليم الأطفال واليافعين البرمجة والروبوتات وتطوير الألعاب والذكاء الاصطناعي.",
+          "slogan": "جيل اليوم هم قادة التكنولوجيا غدًا",
+          "foundingDate": "2023",
+          "founder": {
+            "@type": "Person",
+            "name": "Hossam Galal"
+          },
+          "employee": [
+            { "@type": "Person", "name": "Hassan Orabi" },
+            { "@type": "Person", "name": "Omar Essam" },
+            { "@type": "Person", "name": "Amr Mohamed Galal" }
+          ],
+          "areaServed": {
+            "@type": "Place",
+            "name": "Middle East and North Africa"
+          },
+          "availableLanguage": [
+            { "@type": "Language", "name": "Arabic", "alternateName": "ar" },
+            { "@type": "Language", "name": "English", "alternateName": "en" }
+          ],
+          "sameAs": [
+            "https://github.com/qudschool",
+            "https://www.linkedin.com/company/qudschool"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "availableLanguage": ["Arabic", "English"]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://qudschool.com/#website",
+          "url": "https://qudschool.com/",
+          "name": "QudSchool",
+          "alternateName": "كود سكول",
+          "inLanguage": "ar",
+          "publisher": { "@id": "https://qudschool.com/#organization" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://qudschool.com/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://qudschool.com/#webpage",
+          "url": "https://qudschool.com/",
+          "name": "QudSchool — منصة تعليم البرمجة والذكاء الاصطناعي للأطفال",
+          "isPartOf": { "@id": "https://qudschool.com/#website" },
+          "about": { "@id": "https://qudschool.com/#organization" },
+          "inLanguage": "ar",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://qudschool.com/assets/hero-qudschool-ai.png"
+          },
+          "datePublished": "2026-09-24",
+          "dateModified": "2026-09-24"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://qudschool.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "ما هو QudSchool (كود سكول)؟",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "QudSchool منصة تعليمية مدعومة بالذكاء الاصطناعي تعلّم الأطفال واليافعين البرمجة وعلوم الحاسب والروبوتات وتطوير الألعاب باللغتين العربية والإنجليزية."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "ما الأعمار التي تخدمها المنصة؟",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "تخدم المنصة الأطفال من المرحلة الابتدائية حتى اليافعين، بمسارات تعليمية متدرجة حسب العمر والمستوى."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "ما الدورات المتوفرة في QudSchool؟",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "تشمل الدورات: أساسيات البرمجة (Scratch)، تطوير الويب (HTML/CSS/JavaScript)، تطوير الألعاب (Unity و Minecraft)، الروبوتات و STEM، الذكاء الاصطناعي، علوم الحاسب، والحوسبة الإبداعية."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "هل توفر المنصة شهادات للطلاب؟",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "نعم، يحصل الطلاب على شهادات إتمام معتمدة، مع مشاريع عملية وملف إنجاز شخصي."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "ما اللغات المدعومة؟",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "العربية هي اللغة الافتراضية (RTL)، والإنجليزية مدعومة (LTR)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "كم عدد الطلاب في QudSchool؟",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "أكثر من 2,000 طالب يتعلمون على المنصة."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "من أسس QudSchool؟",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "أسس المنصة Hossam Galal، مع فريق يضم Hassan Orabi و Omar Essam و Amr Mohamed Galal."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://qudschool.com/#service",
+          "name": "برامج تعليم البرمجة والذكاء الاصطناعي للأطفال",
+          "provider": { "@id": "https://qudschool.com/#organization" },
+          "serviceType": "Online Programming & AI Education for Kids",
+          "areaServed": { "@type": "Place", "name": "Online" },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "QudSchool Learning Programs",
+            "itemListElement": [
+              { "@type": "Course", "name": "Primary Stage Programming", "description": "أساسيات البرمجة للمرحلة الابتدائية", "provider": { "@id": "https://qudschool.com/#organization" } },
+              { "@type": "Course", "name": "Game Development Program", "description": "تطوير الألعاب من المفاهيم إلى النشر", "provider": { "@id": "https://qudschool.com/#organization" } },
+              { "@type": "Course", "name": "AI Classroom Program", "description": "أساسيات الذكاء الاصطناعي عملياً", "provider": { "@id": "https://qudschool.com/#organization" } },
+              { "@type": "Course", "name": "Robotics & STEM Program", "description": "الروبوتات والحوسبة الفيزيائية", "provider": { "@id": "https://qudschool.com/#organization" } },
+              { "@type": "Course", "name": "Future Programmers Track", "description": "مسار طويل نحو الاحتراف البرمجي", "provider": { "@id": "https://qudschool.com/#organization" } }
+            ]
+          },
+          "offers": {
+            "@type": "OfferCatalog",
+            "name": "Live Session Plans",
+            "itemListElement": [
+              { "@type": "Offer", "name": "Group Live Sessions (1:6)", "category": "Group", "url": "https://qudschool.com/live-sessions" },
+              { "@type": "Offer", "name": "One-on-One Live Sessions", "category": "Private", "url": "https://qudschool.com/live-sessions" },
+              { "@type": "Offer", "name": "Family Live Sessions (2-4)", "category": "Family", "url": "https://qudschool.com/live-sessions" }
+            ]
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+  <body class="bg-neutral-light dark:bg-neutral-dark font-sans">
+    <noscript>
+      <div style="max-width:800px;margin:2rem auto;padding:1.5rem;font-family:Tajawal,sans-serif;color:#1F2937;line-height:1.8;direction:rtl">
+        <h1>QudSchool | كود سكول — منصة تعليم البرمجة والذكاء الاصطناعي للأطفال</h1>
+        <p>منصة تعليمية مدعومة بالذكاء الاصطناعي لتعليم الأطفال واليافعين البرمجة والروبوتات وتطوير الألعاب والذكاء الاصطناعي. أكثر من 2,000 طالب يتعلم معنا.</p>
+        <h2>البرامج التعليمية</h2>
+        <ul>
+          <li>أساسيات البرمجة للمرحلة الابتدائية</li>
+          <li>تطوير الألعاب (Unity, Minecraft)</li>
+          <li>الذكاء الاصطناعي التطبيقي</li>
+          <li>الروبوتات و STEM</li>
+          <li>تطوير الويب (HTML, CSS, JavaScript)</li>
+          <li>علوم الحاسب والتفكير المنطقي</li>
+        </ul>
+        <h2>لماذا QudSchool؟</h2>
+        <p>مناهج متطورة، مشاريع عملية، شهادات معتمدة، بيئة تفاعلية، ودعم كامل للعربية والإنجليزية.</p>
+        <p><a href="/courses">تصفح الدورات</a> · <a href="/pricing">الأسعار</a> · <a href="/success-stories">قصص النجاح</a></p>
+        <p>يرجى تفعيل JavaScript لتجربة كاملة.</p>
+      </div>
+    </noscript>
+    <div id="root"></div>
+    <script>
+      if (typeof process === 'undefined') {
+        window.process = { env: {} };
+      } else if (typeof process.env === 'undefined') {
+        window.process.env = {};
+      }
+      if (!process.env.API_KEY) {
+        console.warn("API_KEY environment variable is not set. Gemini API calls will fail.");
+      }
+    </script>
+    <script type="module" src="/index.tsx"></script>
+  
+  <!-- QudSystem Centralized Updatable Ad Slot & Footer (Ad-Free in Paid Plans) -->
+  <script src="./qud-ad-slot.js" data-project-name="QudSchool & Qudemy AI Learning Platform" data-project-slug="qudschool-lms" data-category="EdTech & E-Learning" defer></script>
+</body>
+</html>

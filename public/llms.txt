@@ -1,0 +1,46 @@
+# QudSchool
+
+> QudSchool (كود سكول) is an AI-powered educational platform teaching programming, computer science, robotics, game development, and AI to children and youth. Interactive courses, hands-on projects, and modern curricula — in Arabic (RTL) and English (LTR).
+
+Founded by Hossam Galal in 2023. Team: Hassan Orabi, Omar Essam, Amr Mohamed Galal.
+Trusted by 2,000+ students. Partners: Google, Microsoft, MIT, Stanford, UNICEF.
+
+## Core Pages
+
+- [Home](https://qudschool.com/): Platform overview, programs, learning approach.
+- [Courses](https://qudschool.com/courses): Programming and computer science catalog.
+- [Live Sessions](https://qudschool.com/live-sessions): Live 1:1, group (1:6), and family classes with certified instructors.
+- [Pricing](https://qudschool.com/pricing): Plans and pricing.
+- [About](https://qudschool.com/about): Mission, team, values, and story.
+- [Instructors](https://qudschool.com/instructors): Meet the team behind QudSchool.
+- [Certifications](https://qudschool.com/certifications): Certified completion certificates, portfolios, and credentials.
+- [Blog](https://qudschool.com/blog): Articles and guides on teaching programming and AI to kids.
+- [FAQ](https://qudschool.com/faq): Direct answers to common questions.
+- [Contact](https://qudschool.com/contact): Get in touch with our team.
+- [Success Stories](https://qudschool.com/success-stories): Testimonials and outcomes.
+- [Privacy Policy](https://qudschool.com/privacy-policy) · [Terms of Service](https://qudschool.com/terms-of-service)
+
+## Blog Posts
+
+- [Why Should Your Child Learn Programming in 2026?](https://qudschool.com/blog/why-kids-should-learn-programming-2026)
+- [AI for Kids: A Practical Guide to Getting Started](https://qudschool.com/blog/ai-for-kids-guide)
+- [Game Development for Beginners: From Idea to Project](https://qudschool.com/blog/game-development-for-beginners)
+- [Robotics for Kids: A Bridge Between Code and the Physical World](https://qudschool.com/blog/robotics-stem-kids)
+
+## Programs
+
+- Primary Stage Programming
+- Game Development Program
+- AI Classroom Program
+- Robotics & STEM Program
+- Future Programmers Track
+
+## Optional
+
+- [Full content for LLMs](https://qudschool.com/llms-full.txt)
+- [Sitemap](https://qudschool.com/sitemap.xml)
+
+## Contact
+
+- Website: https://qudschool.com
+- Language: Arabic (default), English (supported)

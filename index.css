@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Keep action buttons consistent with the pill shape used in the hero. */
+button:not(.rounded-full) {
+  border-radius: 28px;
+}
+
+/* Remove large padding-top that creates unwanted space */
+body {
+  padding-top: 0; /* Remove the 64px padding */
+}
+
+main {
+  padding-top: 0; /* Remove the 64px padding */
+}
+
+/* Add minimal padding-top only when needed */
+.pt-navbar {
+  padding-top: 4rem; /* Only 16px - much smaller */
+}
+
+/* Or use margin instead of padding for better control */
+.mt-navbar {
+  margin-top: 4rem; /* Only 16px - much smaller */
+}

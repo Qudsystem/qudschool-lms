@@ -1,0 +1,163 @@
+/* Prevent horizontal scroll from decorative absolute elements (blurred circles, glows).
+   Using 'clip' instead of 'hidden' because it does NOT break position: sticky. */
+html, body {
+  overflow-x: clip;
+}
+
+:root {
+  /* Base colors */
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-secondary: #4b5563;
+  --color-primary: #2563EB;
+  --color-primary-light: #60A5FA;
+  --color-primary-dark: #1D4ED8;
+  --color-secondary: #F97316;
+  --color-secondary-light: #FB923C;
+  --color-secondary-dark: #EA580C;
+  
+  /* Neutral colors */
+  --color-neutral-light: #F3F4F6;
+  --color-neutral: #6B7280;
+  --color-neutral-dark: #1F2937;
+  
+  /* Section specific colors */
+  --section-bg: #f8f9fa;
+  --section-header-bg: #ffffff;
+  --section-border: #e9ecef;
+  --card-bg: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  
+  /* Form elements */
+  --input-bg: #ffffff;
+  --input-border: #d1d5db;
+  --input-text: #1a1a1a;
+  --input-placeholder: #9ca3af;
+  
+  /* Interactive elements */
+  --hover-bg: #f3f4f6;
+  --active-bg: #e5e7eb;
+  --focus-ring: rgba(37, 99, 235, 0.5);
+}
+
+.dark, [data-theme="dark"] {
+  /* Base colors */
+  --color-bg: #111827;
+  --color-text: #f3f4f6;
+  --color-text-secondary: #d1d5db;
+  --color-primary: #60A5FA;
+  --color-primary-light: #93C5FD;
+  --color-primary-dark: #3B82F6;
+  --color-secondary: #FB923C;
+  --color-secondary-light: #FDBA74;
+  --color-secondary-dark: #F97316;
+  
+  /* Neutral colors */
+  --color-neutral-light: #e5e7eb;
+  --color-neutral: #9ca3af;
+  --color-neutral-dark: #f9fafb;
+  
+  /* Section specific colors */
+  --section-bg: #1f2937;
+  --section-header-bg: #111827;
+  --section-border: #374151;
+  --card-bg: #1f2937;
+  --card-shadow: rgba(0, 0, 0, 0.5);
+  
+  /* Form elements */
+  --input-bg: #374151;
+  --input-border: #4b5563;
+  --input-text: #f3f4f6;
+  --input-placeholder: #9ca3af;
+  
+  /* Interactive elements */
+  --hover-bg: #374151;
+  --active-bg: #4b5563;
+  --focus-ring: rgba(96, 165, 250, 0.5);
+  
+  /* Additional dark mode specific colors */
+  --hero-bg: #111827;
+  --feature-card-bg: #1f2937;
+  --testimonial-bg: #1f2937;
+  --stats-bg: #111827;
+  --footer-bg: #0f172a;
+  --nav-dropdown-bg: #1f2937;
+  --button-text: #f3f4f6;
+  --button-hover: #2563eb;
+  --pricing-card-bg: #1f2937;
+  --pricing-card-highlight: #2563eb;
+}
+
+/* Add smooth transitions */
+body * {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Section styles */
+.section {
+  background-color: var(--section-bg);
+  border: 1px solid var(--section-border);
+}
+
+.section-header {
+  background-color: var(--section-header-bg);
+  color: var(--color-text);
+}
+
+.card {
+  background-color: var(--card-bg);
+  box-shadow: 0 2px 4px var(--card-shadow);
+  color: var(--color-text);
+}
+
+/* Additional section-specific styles */
+.content-area {
+  background-color: var(--section-bg);
+  color: var(--color-text);
+}
+
+.sidebar {
+  background-color: var(--section-header-bg);
+  border-right: 1px solid var(--section-border);
+}
+
+/* Code blocks and syntax highlighting */
+pre, code {
+  background-color: var(--section-bg);
+  border: 1px solid var(--section-border);
+}
+
+/* Form elements */
+input, textarea, select {
+  background-color: var(--input-bg);
+  border-color: var(--input-border);
+  color: var(--input-text);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--input-placeholder);
+}
+
+/* Focus states */
+button:focus, a:focus, input:focus, textarea:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--focus-ring);
+}
+
+/* Hover states */
+.hover-effect:hover {
+  background-color: var(--hover-bg);
+}
+
+/* Active states */
+.active-state, .active {
+  background-color: var(--active-bg);
+}
+
+/* Glass border utility (used by SocialFlipButton) */
+.glass-border {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+.dark .glass-border {
+  border-color: rgba(255, 255, 255, 0.10);
+}
